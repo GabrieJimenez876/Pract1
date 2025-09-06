@@ -1,13 +1,65 @@
 <html>
 <head>
-    <title> PAgina </title>
 </head>
 <body>
-    <h1>¡Hola Mundo! </h1>>
-    <p> Este es mi primer Parrafo en Html.</p>
-    <hr>
-    <p>priemr parrafo. </p>
-    <p>Segundo Parrafo con <br>Salto de linea.</p>
-    <hr>
+  <div class="sheet">
+    <div class="sidebar">Etiqueta &nbsp; Enlace</div>
+
+    <h1>Laboratorio 2 – HTML Básico</h1>
+    <div class="objective">
+      <strong>Objetivo:</strong> Replicar esta página utilizando las etiquetas vistas en clase (diapositivas 3 a 12, excepto atributos y listas).
+    </div>
+
+    <section id="parrafos">
+      <h2>1) Párrafos, saltos de línea y separadores</h2>
+      <p>Este es un <strong>párrafo</strong> de ejemplo. Recuerda que el navegador ignora múltiples espacios. Si necesitas un salto de línea, utiliza <code>&lt;br&gt;</code>.</p>
+      <div class="example">
+        Línea 1<br>
+        Línea 2 (después de un &lt;br&gt;)
+      </div>
+    </section>
+
+    <section id="formato">
+      <h2>2) Formato de texto</h2>
+      <p><strong>Negrita semántica</strong>, <em>cursiva semántica</em>, <u>subrayado</u> y <s>tachado</s>.</p>
+      <p class="small">Ejemplos: <code>&lt;strong&gt;, &lt;em&gt;, &lt;u&gt;, &lt;del&gt;</code></p>
+    </section>
+
+    <section id="color-tam">
+      <h2>3) Color, tamaño y tipografía</h2>
+      <p style="color:red;">Este texto está en rojo (por nombre de color).</p>
+      <p style="color:green;">Este texto está en color verde (hex o nombre).</p>
+      <p style="color:rgb(34,179,12);">Este texto está en color RGB (34,179,12).</p>
+      <p style="font-size:22px;">Este texto tiene tamaño 22px.</p>
+      <p style="font-family:'Times New Roman', Times, serif;">Este texto usa Times New Roman.</p>
+    </section>
+
+    <section id="entidades">
+      <h2>4) Caracteres especiales (entidades)</h2>
+      <p class="small">Para mostrar símbolos reservados usa entidades:</p>
+      <div class="example">
+        &lt; = &amp;lt; &nbsp; &gt; = &amp;gt; &nbsp; &amp; = &amp;amp; &nbsp; &copy; = &amp;copy;
+      </div>
+    </section>
+
+    <section id="imagenes">
+      <h2>5) Imágenes</h2>
+      <p>Inserta una imagen con <code>&lt;img&gt;</code>, recuerda siempre incluir <code>alt</code>.</p>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML5">
+
+      <p class="small">Si no tienes internet, coloca una imagen local (por ejemplo: <code>foto.jpg</code>).</p>
+    </section>
+
+    <section id="enlaces">
+      <h2>6) Enlaces</h2>
+      <p>Enlace normal: <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noreferrer">Documentación MDN</a></p>
+      <p>Enlace en nueva pestaña: <a href="https://www.whatwg.org" target="_blank" rel="noopener">W3C - HTML</a></p>
+    </section>
+
+    <div class="footer">
+      © 2025 - Laboratorio 1 (Diapositivas 3 a 12, sin atributos ni listas)
+    </div>
+  </div>
 </body>
 </html>
