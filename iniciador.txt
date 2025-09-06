@@ -10,6 +10,8 @@ ssh-keygen -t ed25519 -C "gabrieljimeneztarquitanke876@gmail.com"
 
 cat ~/.ssh/id_ed25519.pub
 
+Ve a GitHub > Settings > SSH and GPG keys
+https://github.com/settings/keys
 --me muestra la maquina y creo la contraseña SHH en git hub 
 
 --compruebo la conexion 
