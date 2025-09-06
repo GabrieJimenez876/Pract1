@@ -1,0 +1,29 @@
+primero erminal 
+--ingresar usuario 
+
+git config --global user.name "GabrielJimenez"
+git config --global user.email "gabrieljimeneztarquitanke876@gmail.com"
+
+ssh-keygen -t ed25519 -C "gabrieljimeneztarquitanke876@gmail.com"
+
+--apreto enter x2
+
+cat ~/.ssh/id_ed25519.pub
+
+--me muestra la maquina y creo la contraseña SHH en git hub 
+
+--compruebo la conexion 
+
+ssh -T git@github.com
+
+clone el repositorio
+git clone git@github.com:GabrieJimenez876/Pract1.git
+
+inicio mis practicas
+
+cd C:\Users\GABRIEL\Desktop
+git clone git@github.com:GabrieJimenez876/Pract1.git
+cd Pract1
+code .
+git status
+git checkout main
